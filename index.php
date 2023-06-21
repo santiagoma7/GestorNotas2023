@@ -40,7 +40,7 @@
             <button type="submit">Iniciar sesión</button>
         </form>
 
-        <p class="mt-3 text-center">¿No tienes una cuenta? <a href="admin/paginas/agregar.php">Regístrate aquí </a>.</p>
+        <p class="mt-3 text-center">¿No tienes una cuenta? <a href="admin/paginas/index.php">Regístrate aquí </a>.</p>
     </div>
 </body>
 </html>
