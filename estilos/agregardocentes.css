@@ -1,0 +1,59 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEkAWLBWgvvdQj04FNqyvlM3jpZvs74hIGcBNH9O0pt32hzvtxTXuI7u9N_hk3iU4ODjo&usqp=CAU);
+
+    font-family: Arial, sans-serif;
+    background-color: #ce91d6;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #a812ff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #6e20ff;
+}

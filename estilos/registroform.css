@@ -1,0 +1,56 @@
+
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEkAWLBWgvvdQj04FNqyvlM3jpZvs74hIGcBNH9O0pt32hzvtxTXuI7u9N_hk3iU4ODjo&usqp=CAU)
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+form {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: purple;
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+    margin: 0 auto;
+    width: 300px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6c757d;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #495057;
+}
+
+form p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+form a {
+    color: white;
+    text-decoration: underline;
+}

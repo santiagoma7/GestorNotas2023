@@ -1,0 +1,148 @@
+*{
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body{
+	background-color: #b30ad4;
+}
+p{
+    color: black;
+}
+.navbar {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #099aee;
+	color: white;
+    
+}
+
+.brand-title {
+	font-size: 1.5rem;
+	margin: .5rem;
+}
+
+.navbar-links {
+	height: 100%;
+  
+    
+}
+
+.navbar-links ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+    
+    
+}
+
+
+.navbar-links li {
+	list-style: none;
+    background-color: aquamarine;
+  
+}
+.doc {
+	list-style: none;
+    background-color: rgb(243, 247, 4);
+  
+}
+.doc:hover {
+	background-color: rgb(224, 212, 212);
+  
+}
+.est {
+	list-style: none;
+    background-color: rgb(37, 4, 158);
+  
+}
+.est:hover {
+	
+    background-color: rgb(236, 11, 11);
+  
+}
+.mat {
+	list-style: none;
+    background-color: rgb(206, 5, 5);
+  
+}
+.mat:hover {
+	
+    background-color: rgb(193, 206, 5);
+  
+}
+
+.navbar-links li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 1rem;
+    color: black;
+   
+
+}
+
+.navbar-links li:hover {/*cuando pasamos el mouse sobre el elemento*/
+	background-color: #555;
+}
+
+.toggle-button {
+	position: absolute;
+	top: .75rem;
+	right: 1rem;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 21px;
+}
+
+.toggle-button .bar {
+	height: 3px;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+}
+
+@media (max-width: 800px) {/*el punto de quiebre*/
+	.navbar {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.toggle-button {
+		display: flex;
+	}
+
+	.navbar-links {
+		display: none;
+		width: 100%;
+	}
+
+	.navbar-links ul {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.navbar-links ul li {
+		text-align: center;
+	}
+
+	.navbar-links ul li a {
+		padding: .5rem 1rem;
+	}
+
+	.navbar-links.active {
+		display: flex;
+	}
+    .boton{
+        background-color: rgb(194, 15, 15);
+    }
+}
