@@ -1,34 +1,27 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type ="text/css" href="../../estilos/registroform.css">
-    <title>Registro</title>
-</head>
-<body>
-   
-
-    <div class="container">
-        <form>
-            <label>Nombre</label>
-            <br>
-            <input type="text" placeholder="Nombre">
-            <br>
-            <label>Apellido</label>
-            <br>
-            <input type="text" placeholder="Apellido">
-            <br>
-            <label>Usuario</label>
-            <br>
-            <input type="text" placeholder="Usuario">
-            <br>
-            <label>Contraseña</label>
-            <br>
-            <input type="password" placeholder="Contraseña">
-            <br>
-            <input type="submit">
-        </form>
-    </div>
+  <title>Bootstrap Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type ="text/css" href="../../estilos/nav.css">
+  </head>
+ <body>
+	<nav class="navbar">
+		<div class="brand-title"><p>Administrador</p></div>
+		<a href="#" class="toggle-button">
+			<span class="bar"></span><!--hamburguesa-->
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</a>
+		<div class="navbar-links">
+			<ul>
+				<li><a class="doc" href="../../docentes/paginas/agregar.php">Docentes</a></li>
+				<li><a class="est" href="../../estudiantes/paginas/agregar.php">Estudiantes</a></li>
+				<li><a class="mat" href="../../materias/agregar.php">Materias</a></li>
+                <button class="boton" >Cerrar sesión</button>
+			</ul>
+		</div>
 </body>
 </html>
+
