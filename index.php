@@ -1,64 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type ="text/css" href="estilos/iniciosesion.css">
+    
     <title >Inicio de sesión</title>
-    <style>
-        body {
-            background-image: url("img/notas.jpg");
-        }
-
-        .container {
-            max-width: 700px;
-            margin: 0 auto;
-            padding-top: 100px;
-            width: 40%;
-            text-align: center;
-        }
-
-        form {
-            background-color: purple;
-            padding: 30px;
-            border-radius: 48px;
-            color: white;
-        }
-
-        form label {
-            display: block;
-            margin-bottom: 3px;
-        }
-
-        form input[type="text"],
-        form input[type="password"] {
-            width: 90%;
-            padding: 6px;
-            margin-bottom: 10px;
-        }
-
-        form button {
-            width: 95%;
-            padding: 12px;
-            background-color: #6c757d;
-            border: none;
-            color: white;
-            cursor: pointer;
-        }
-
-        form button:hover {
-            background-color: #495057;
-        }
-
-        form p {
-            text-align: center;
-            margin-top: 10px;
-        }
-
-        form a {
-            color: white;
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
+    
     <?php
     // Verificar si se envió el formulario de inicio de sesión
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
