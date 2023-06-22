@@ -5,7 +5,7 @@ include_once('../../conexion.php');
 class Administrador extends Conexion
 {
 public function __construct(){
-    $this ->db = parent::__construct();
+    $this->db = parent::__construct();
 }
 
 // FUNCION PARA REGISTRAR LOS USUARIOS
