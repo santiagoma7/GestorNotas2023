@@ -1,7 +1,7 @@
 <?php
 class Conexion
 {
-    protected $db;
+    public $db;
     private $drive = "mysql";
     private $host = "localhost";
     private $namedb = "notas2023";
@@ -14,6 +14,8 @@ class Conexion
             $this->db = new PDO($this->drive . ":host=" . $this->host . ";dbname=" . $this->namedb, $this->user, $this->password);
             $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             echo "Conexión realizada";
+            return db;
+            
         } catch (PDOException $e) {
             echo "Ha surgido algún error: " . $e->getMessage();
         }
